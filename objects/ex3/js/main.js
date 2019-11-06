@@ -33,12 +33,6 @@ const limpar = (value) => {
             return new Card(receita).render()
         }).join("")
     }
-<<<<<<< HEAD
-}
-
-   
-     
-=======
 ];
 
 
@@ -62,4 +56,3 @@ document.querySelector('.button__search').addEventListener('click', function(){
         new Card(encontrado).render()
     })
 })
->>>>>>> upstream/aula2
