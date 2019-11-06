@@ -14,23 +14,12 @@ button.pequeno{
   font-size: 14px;
 }
 
-button.grande{
-  padding: 50px;
- 
-}
-
 button.medio{
   padding: 30px;
  
 }
-
-.verde {
-  background-color: green;
-  border-radius: 5px;
-}
-
 .roxo {
-  background-color: purple;
+  background-color: purple
 }
 
 .azul {
