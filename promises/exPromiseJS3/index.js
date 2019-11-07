@@ -40,7 +40,7 @@ function criaTexto(texto) {
     .catch(err => criaTexto(err))
   
   
-  
+  //abaixo um método de promisse, o Promisse.all , que retorna em forma de array as respostas todas ao mesmo tempo.Bom para quando estou lidando com a resposta de várias APIs ao mesmo tempo
   // Promise.all([ensaboar(), enxaguar()])
-  //   .then(resAll => resAll.forEach(res => criaTexto(res)))
+  //   .then(resAll => resAll.forEach(resUnica => criaTexto(resUnica)))
   //   .catch(err => console.log(err))
