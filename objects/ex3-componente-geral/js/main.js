@@ -30,6 +30,14 @@ let resultados = [
 const renderNavbar = new Navbar
 
 renderNavbar.render()
+const sectionCards = document.querySelector('.cards')
+const carregaCards = (arrayRecebido) => {
+    sectionCards.innerHTML = arrayRecebido.map(objeto => {
+        return new Card(objeto).render()
+    }).join("")
+}
+
+carregaCards(resultados)
 
 const sectionsCards = document.querySelector('.cards')
 const carregaCards = (arrayRecebido) => {
@@ -53,6 +61,13 @@ document.querySelector('.button__search').addEventListener('click', function () 
         return receita.titulo.toUpperCase().includes(inputValue) ||
         receita.ingredientes.toUpperCase().includes(inputValue)
     })
+<<<<<<< HEAD
     
     carregaCards(achados)
 })
+=======
+
+    carregaCards(achados)
+})
+
+>>>>>>> upstream/aula3
