@@ -61,13 +61,6 @@ document.querySelector('.button__search').addEventListener('click', function () 
         return receita.titulo.toUpperCase().includes(inputValue) ||
         receita.ingredientes.toUpperCase().includes(inputValue)
     })
-<<<<<<< HEAD
     
     carregaCards(achados)
 })
-=======
-
-    carregaCards(achados)
-})
-
->>>>>>> upstream/aula3
